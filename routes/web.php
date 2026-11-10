@@ -10,3 +10,4 @@ Route::get('/', function () {
 use App\Http\Controllers\AlbumController;
 
 Route::get('/albums', [AlbumController::class, 'index']);
+Route::get('/albums/{id}', [AlbumController::class, 'show']);

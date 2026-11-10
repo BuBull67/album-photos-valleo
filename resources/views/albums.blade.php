@@ -10,7 +10,7 @@
 <ul>
     @foreach ($albums as $album)
         <li>
-            <h2>{{ $album->titre }}</h2>
+            <h2><a href="/albums/{{ $album->id }}">{{ $album->titre }}</a></h2>
             <p>Créé le {{ $album->creation }}</p>
         </li>
     @endforeach
