@@ -8,7 +8,7 @@
     @yield('css')
 </head>
 <body>
-    <header class="Header">
+    <header class="site-header">
     <span class="logo">Album Photo</span>
 </header>
 
@@ -16,8 +16,6 @@
         @yield('content')
     </main>
 
-    <footer class="footer">
-        <p>© {{ date('2026') }} Album Photos de Valentin et Léo</p>
-    </footer>
-</body>
-</html>
+    <footer class="site-footer">
+    <p>© {{ date('2026') }} Album Photo · Projet de Valentin et Léo</p>
+</footer>

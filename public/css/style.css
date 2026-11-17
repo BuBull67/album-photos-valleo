@@ -1,9 +1,58 @@
-header {
-    background-color: blue;
-    justify-content: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f3f4f8;
+    color: #1f2937;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
-footer{
-    background-color: rgb(179, 111, 10);
+a {
+    color: #4f46e5;
+    text-decoration: none;
+}
+
+/* Header */
+.site-header {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    padding: 22px 32px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(79, 70, 229, 0.35);
+}
+
+.site-header .logo {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Contenu */
+.site-main {
+    flex: 1;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.site-main h1 {
+    font-size: 2rem;
+    margin-bottom: 28px;
+    color: #111827;
+}
+
+/* Footer */
+.site-footer {
+    background: #111827;
+    color: #9ca3af;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
 }
