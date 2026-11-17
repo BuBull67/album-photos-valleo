@@ -8,6 +8,11 @@
 <a href="/albums">← Retour aux albums</a>
 
 <h1>{{ $album->titre }}</h1>
+<div class="modal-backdrop">
+<div class ="largephoto">
+    <img src="https://img.hardloop.com/image/upload/v1609858588/articles/id-645-comment-choisir-ses-raquettes-a-neige/randonnee-en-raquettes.jpg" alt="">
+</div>
+</div>
 
 <div class="photos">
     @forelse ($photos as $photo)
@@ -20,4 +25,11 @@
         <p>Aucune photo dans cet album.</p>
     @endforelse
 </div>
+
+<script>
+    let modal = document.querySelector('modal-backdrop');
+    let modalimg = document.querySelector('img');
+
+    document.querySelectorAll('img', 'modalimg')
+</script>
 @endsection

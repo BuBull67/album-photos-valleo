@@ -10,3 +10,34 @@
     object-fit: cover;
     border-radius: 8px;
 }
+
+.modal-backdrop {
+     background-color: rgba(0, 0, 0, 0.5);
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0; 
+       display: none;
+    transform: translateX(-100%);
+}
+
+
+
+.modal-backdrop.active {
+    display: flex;
+    transform: translateX(0);
+}
+
+.largephoto {
+   
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    bottom: 5%;
+    left: 10%;
+}
+
+.largephoto img {
+    border-radius:  40px;
+}
