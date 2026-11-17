@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
 use App\Models\Album;
 use App\Models\Photo;
 
@@ -20,3 +21,11 @@ class AlbumController extends Controller
 }
 }
 
+=======
+use Illuminate\Http\Request;
+
+class AlbumController extends Controller
+{
+    //
+}
+>>>>>>> 20707bb1e0c04c23c806e4dd527fbc5a2a3b7189
